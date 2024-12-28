@@ -171,7 +171,7 @@ class iCloudCryptoAuth:
 
 
 auth = iCloudCryptoAuth()
-url, payload = auth.get_SRP_login(username="freelancewritermusa@gmail.com",password="/i9AFWtrkyP-b3x")
+url, payload = auth.get_SRP_login(username="youremail.wherever",password="securepassword")
 params = {
     'isRememberMeEnabled': 'true',
 }
